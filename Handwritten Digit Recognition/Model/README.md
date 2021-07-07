@@ -5,7 +5,8 @@
 
 **DATASET**
 - The data used in this project can be downloaded from [here](https://www.kaggle.com/c/mnist-handwritten-digit-recognition/data)
-- Data containes images of handwritten digits between 0 to 9 in csv format.
+- It is a dataset of 60,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.
+- The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively.
 
 **WHAT I HAD DONE**
 - Preprocessed the images before model training.
@@ -15,6 +16,7 @@
 
 
 ## CONVOLUTIONAL NEURAL NETWORK
+- CNN is primarily used in object recognition by taking images as input and then classifying them in a certain category. Handwritten digit recognition is one of that kind.
  
  ***Network Architecture***
  - Input Dense Layer | Activation Function : Relu
